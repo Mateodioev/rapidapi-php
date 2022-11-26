@@ -1,0 +1,14 @@
+{
+    "name": "mateodioev/rapidapi",
+    "description": "RapidAPI client",
+    "type": "library",
+    "require": {
+        "mateodioev/request": "^2.1"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Mateodioev\\RapidApi\\": "src/"
+        }
+    }
+}

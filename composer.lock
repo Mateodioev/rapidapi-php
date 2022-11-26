@@ -1,0 +1,121 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "87ed11dfd24e783af85f3206f4dc2701",
+    "packages": [
+        {
+            "name": "mateodioev/netscape-cookie",
+            "version": "v1.1.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Mateodioev/netscape-cookie.git",
+                "reference": "c2ce568a718498fc933a18f6cb9ab8b20f817f69"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Mateodioev/netscape-cookie/zipball/c2ce568a718498fc933a18f6cb9ab8b20f817f69",
+                "reference": "c2ce568a718498fc933a18f6cb9ab8b20f817f69",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Mateodioev\\NetscapeCookie\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "Create cookie files using netscape format",
+            "support": {
+                "issues": "https://github.com/Mateodioev/netscape-cookie/issues",
+                "source": "https://github.com/Mateodioev/netscape-cookie/tree/v1.1.1"
+            },
+            "time": "2022-10-26T06:03:09+00:00"
+        },
+        {
+            "name": "mateodioev/request",
+            "version": "v2.1.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Mateodioev/request.git",
+                "reference": "169bec0492f58ca10e84032b036cc7eb2d965822"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Mateodioev/request/zipball/169bec0492f58ca10e84032b036cc7eb2d965822",
+                "reference": "169bec0492f58ca10e84032b036cc7eb2d965822",
+                "shasum": ""
+            },
+            "require": {
+                "mateodioev/netscape-cookie": "^1.0",
+                "mateodioev/utils": "^1.2"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Mateodioev\\Request\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Mateodioev"
+                }
+            ],
+            "description": "Easy curl",
+            "support": {
+                "issues": "https://github.com/Mateodioev/request/issues",
+                "source": "https://github.com/Mateodioev/request/tree/v2.1.2"
+            },
+            "time": "2022-10-26T19:33:15+00:00"
+        },
+        {
+            "name": "mateodioev/utils",
+            "version": "v1.4.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Mateodioev/php-utils.git",
+                "reference": "66da92f32d1c85e5d1d063fd09d4434c6040d524"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Mateodioev/php-utils/zipball/66da92f32d1c85e5d1d063fd09d4434c6040d524",
+                "reference": "66da92f32d1c85e5d1d063fd09d4434c6040d524",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Mateodioev\\Utils\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "Php utils",
+            "support": {
+                "issues": "https://github.com/Mateodioev/php-utils/issues",
+                "source": "https://github.com/Mateodioev/php-utils/tree/v1.4.1"
+            },
+            "time": "2022-10-23T05:27:12+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "2.3.0"
+}
